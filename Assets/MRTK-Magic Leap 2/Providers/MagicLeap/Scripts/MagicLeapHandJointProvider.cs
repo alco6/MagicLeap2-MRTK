@@ -5,9 +5,7 @@ using UnityEngine;
 using UnityEngine.XR;
 
 #if UNITY_MAGICLEAP || UNITY_ANDROID
-using Mono.Cecil.Cil;
 using UnityEngine.XR.MagicLeap;
-using HandGestures = UnityEngine.XR.MagicLeap.InputSubsystem.Extensions.DeviceFeatureUsages.HandGesture;
 #endif
 
 namespace MagicLeap.MRTK.DeviceManagement.Input
